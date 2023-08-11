@@ -17,7 +17,7 @@ int getIntegerNumber() { return integerDis(eng); }
 
 
 
-class graph {   /* graph that keeps track of the connections between nodes. if graph[i][j] = 10, it means that between nodes i and j there's an edge with a cost equal to 10 */
+class graph {   /* graph that keeps track of the connections between nodes. if graph[i][j] = 1, it means that between nodes i and j there's an edge with a cost equal to 10 */
     public:
         int** structure;
         graph(int size) {
